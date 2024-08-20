@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/60 * * * *"  # 每小时触发一次
+    - cron: "*/600 * * * *"  # 每小时触发一次
 
 jobs:
   autogreen:
